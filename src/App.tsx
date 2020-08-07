@@ -23,6 +23,9 @@ function LambdaDemo() {
       <button onClick={handleClick('hello')}>
         {isLoading ? 'Loading...' : 'Call Lambda'}
       </button>
+      <button onClick={handleClick('chuck')}>
+        {isLoading ? 'Loading...' : 'Call Async Lambda'}
+      </button>
       <br />
       <span>{msg}</span>
     </p>
