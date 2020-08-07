@@ -2,3 +2,5 @@
   command = "yarn build"
   functions = "lambda"
   publish = "build"
+[[plugins]]
+package = "@netlify/plugin-functions-install-core"
